@@ -13,10 +13,10 @@ config :crud_elixir,
 # Configures the endpoint
 config :crud_elixir, CrudElixirWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "vbJhCMH/URG3c7fCEeHXulshTT5IDtIKW51cXYsMT8Xc2G2gxZvBH+JiQZPTlno3",
+  secret_key_base: "reFyMZmMNbgXTfgrAOpGLWc0XG2shHhy6IM6ca1Ac9/yye81B1mzq++bCYXL8J0R",
   render_errors: [view: CrudElixirWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: CrudElixir.PubSub,
-  live_view: [signing_salt: "xGvmfDCt"]
+  live_view: [signing_salt: "q8k7HG/Q"]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -7,7 +7,7 @@ defmodule CrudElixirWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_crud_elixir_key",
-    signing_salt: "BOHwZ2Uu"
+    signing_salt: "T4nRK5Ji"
   ]
 
   socket "/socket", CrudElixirWeb.UserSocket,
