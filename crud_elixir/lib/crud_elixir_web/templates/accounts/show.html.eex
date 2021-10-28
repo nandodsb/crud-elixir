@@ -1,0 +1,23 @@
+<h1>Show Accounts</h1>
+
+<ul>
+
+  <li>
+    <strong>Number:</strong>
+    <%= @accounts.number %>
+  </li>
+
+  <li>
+    <strong>Owner:</strong>
+    <%= @accounts.owner %>
+  </li>
+
+  <li>
+    <strong>Balance:</strong>
+    <%= @accounts.balance %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.accounts_path(@conn, :edit, @accounts) %></span>
+<span><%= link "Back", to: Routes.accounts_path(@conn, :index) %></span>
